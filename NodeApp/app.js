@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // using as middleware
 app.use('/', routes);
-app.use('/api/v1/imageData', imageDataRoutes);
+app.use('/api/image-data', imageDataRoutes);
 
 
 // catch 404 and forward to error handler

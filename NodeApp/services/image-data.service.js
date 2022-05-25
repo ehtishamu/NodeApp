@@ -10,12 +10,13 @@ exports.findAll = function (req, res) {
     });
 };
 exports.create = function (req, res) {
-    const new_employee = new ImageData(req.body);
+    const new_image = new ImageData(req.body);
+    new_image.ipath = req.file.filename;
     //handles null error
     if (req.body.constructor === Object && Object.keys(req.body).length === 0) {
         res.status(400).send({ error: true, message: 'Please provide all required field' });
     } else {
-        ImageData.create(new_employee, function (err, imageData) {
+        ImageData.create(new_image, function (err, imageData) {
             if (err)
                 res.send(err);
             res.json({ error: false, message: "ImageData added successfully!", data: imageData });

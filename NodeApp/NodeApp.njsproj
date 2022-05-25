@@ -41,6 +41,20 @@
     <Content Include="models\image-data.model.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\asset-manifest.json" />
+    <Content Include="public\favicon.ico" />
+    <Content Include="public\index.html" />
+    <Content Include="public\logo192.png" />
+    <Content Include="public\logo512.png" />
+    <Content Include="public\manifest.json" />
+    <Content Include="public\robots.txt" />
+    <Content Include="public\static\css\main.8db44088.css" />
+    <Content Include="public\static\css\main.8db44088.css.map" />
+    <Content Include="public\static\js\787.46cc579d.chunk.js" />
+    <Content Include="public\static\js\787.46cc579d.chunk.js.map" />
+    <Content Include="public\static\js\main.30130321.js" />
+    <Content Include="public\static\js\main.30130321.js.LICENSE.txt" />
+    <Content Include="public\static\js\main.30130321.js.map" />
     <Content Include="routes\image-data.routes.js">
       <SubType>Code</SubType>
     </Content>
@@ -58,6 +72,10 @@
   <ItemGroup>
     <Folder Include="config\" />
     <Folder Include="models\" />
+    <Folder Include="public\static\" />
+    <Folder Include="public\static\css\" />
+    <Folder Include="public\static\js\" />
+    <Folder Include="uploads\" />
     <Folder Include="Properties\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="services\" />
