@@ -10,8 +10,7 @@ var bodyParser = require('body-parser');
 
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
-const employeeRoutes = require('./routes/employee.routes')
+const imageDataRoutes = require('./routes/image-data.routes');
 
 
 
@@ -32,8 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // using as middleware
 app.use('/', routes);
-app.use('/users', users);
-app.use('/api/v1/employees', employeeRoutes)
+app.use('/api/v1/imageData', imageDataRoutes);
 
 
 // catch 404 and forward to error handler

@@ -37,22 +37,18 @@
     <Content Include="config\mysqldatabase.config.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="models\employee.model.js">
+    <None Include="Properties\PublishProfiles\proclick2022 - Web Deploy.pubxml" />
+    <Content Include="models\image-data.model.js">
       <SubType>Code</SubType>
     </Content>
-    <None Include="Properties\PublishProfiles\proclick2022 - Web Deploy.pubxml" />
-    <Content Include="routes\employee.routes.js">
+    <Content Include="routes\image-data.routes.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="routes\index.js" />
-    <Content Include="routes\users.js" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
-    <Content Include="services\employee.service.js">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="services\mysqldatabaseconnection.js">
+    <Content Include="services\image-data.service.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\index.pug" />
